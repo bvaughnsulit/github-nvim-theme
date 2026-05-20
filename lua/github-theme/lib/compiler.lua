@@ -43,10 +43,8 @@ if vim.g.colors_name then
   vim.g.colors_name = nil
 end
 vim.o.termguicolors = true
-vim.o.background = "%s"
 vim.g.colors_name = "%s"
 ]],
-      background,
       opts.theme
     ),
   }
